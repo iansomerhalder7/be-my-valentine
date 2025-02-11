@@ -3,60 +3,59 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: "Sofia", sans-serif;
+    font-family: "Playfair Display", serif; 
     font-size: 30px;
-    text-shadow: 3px 3px 3px #ababab;
-  
-    background-color: #F3B0C3;
-  }
-  
-  #noButton {
+    text-shadow: 3px 3px 3px rgba(170, 170, 170, 0.5); 
+    background-color: #f8d8d8; 
+    color: #4a4a4a; 
+}
+
+#noButton {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
     margin-top: 30px;
-  }
-  
-  #yesButton {
+}
+
+#yesButton {
     position: absolute;
     margin-right: 150px;
     margin-top: 30px;
-  }
-  
-  .header_text {
-    font-family: "Sofia", sans-serif;
-    text-shadow: 2px 2px 2px #c2ebfb;
+}
+
+.header_text {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px 2px #e8f5f9; 
     font-size: 50px;
     font-weight: bold;
-  
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    color: #ffffff;
-  }
-  
-  .text {
-    font-family: "Sofia", sans-serif;
-    text-shadow: 2px 2px 2px #c2ebfb;
+    color: #c97b7b; 
+}
+
+.text {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px 2px #e8f5f9;
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: #6b6b6b; 
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 55px;
     margin-left: 20px;
-  }
-  
-  .btn {
-    background-color: #4ed2e9;
+}
+
+.btn {
+    background-color: #ffb6b9; 
     color: white;
     font-weight: 600;
     padding: 15px 32px;
@@ -68,32 +67,33 @@ body {
     border: none;
     border-radius: 12px;
     transition: background-color 0.3s ease;
-    box-shadow: 0 3px 3px black;
-  }
-  
-  .btn:hover {
-    background-color: #ffffff;
-    color: #4ed2eb;
-  }
-  
-  .gif_container {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.btn:hover {
+    background-color: #fff2f2; 
+    color: #ffb6b9;
+}
+
+.gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  p {
-    font-family: "Sofia", sans-serif;
+}
+
+p {
+    font-family: "Playfair Display", serif;
     text-shadow: 2px 2px 2px #def5fd;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: #c97b7b;
     text-align: center;
     margin-top: 40px;
-    
-  }
-  p a {
-    color: rgb(255, 255, 255);
+}
+
+p a {
+    color: #c97b7b;
     font-size: 20px;
     font-weight: 600;
-    opacity: 0.25;
-  }
+    opacity: 0.5;
+}
