@@ -3,10 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: "Playfair Display", serif; 
-    font-size: 30px;
-    text-shadow: 3px 3px 3px rgba(170, 170, 170, 0.5); 
-    background-color: #f8d8d8; 
+    font-family: "Merriweather", serif; 
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #f2e8e1; 
     color: #4a4a4a; 
 }
 
@@ -24,22 +24,22 @@ body {
 }
 
 .header_text {
-    font-family: "Playfair Display", serif;
-    text-shadow: 2px 2px 2px #e8f5f9; 
+    font-family: "Merriweather", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700; 
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    color: #c97b7b; 
+    color: #6e3f3b; 
 }
 
 .text {
-    font-family: "Playfair Display", serif;
-    text-shadow: 2px 2px 2px #e8f5f9;
-    font-size: 30px;
-    font-weight: bold;
-    color: #6b6b6b; 
+    font-family: "Merriweather", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 28px;
+    font-weight: 500;
+    color: #6e3f3b;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -55,7 +55,7 @@ body {
 }
 
 .btn {
-    background-color: #ffb6b9; 
+    background-color: #e3b7b3; 
     color: white;
     font-weight: 600;
     padding: 15px 32px;
@@ -65,15 +65,13 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px; 
     transition: background-color 0.3s ease;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); 
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 
 .btn:hover {
-    background-color: #fff2f2; 
-    color: #ffb6b9;
-}
+    background-color: #f7d1c7; 
+    color: #6e3f3b; 
 
 .gif_container {
     display: flex;
@@ -82,18 +80,23 @@ body {
 }
 
 p {
-    font-family: "Playfair Display", serif;
-    text-shadow: 2px 2px 2px #def5fd;
-    font-size: 40px;
-    font-weight: bold;
-    color: #c97b7b;
+    font-family: "Merriweather", serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 36px;
+    font-weight: 400;
+    color: #6e3f3b;
     text-align: center;
     margin-top: 40px;
 }
 
 p a {
-    color: #c97b7b;
+    color: #6e3f3b;
     font-size: 20px;
     font-weight: 600;
-    opacity: 0.5;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+p a:hover {
+    opacity: 1;
 }
