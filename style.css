@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: "Merriweather", serif; 
+    font-family: "Merriweather", serif;
     font-size: 28px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
     background-color: #f2e8e1; 
@@ -25,9 +25,9 @@ body {
 
 .header_text {
     font-family: "Merriweather", serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
     font-size: 50px;
-    font-weight: 700; 
+    font-weight: 700;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -55,7 +55,7 @@ body {
 }
 
 .btn {
-    background-color: #e3b7b3; 
+    background-color: #e8a9a0; 
     color: white;
     font-weight: 600;
     padding: 15px 32px;
@@ -65,18 +65,21 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border: none;
-    border-radius: 8px; 
+    border-radius: 12px;
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
 
 .btn:hover {
     background-color: #f7d1c7; 
     color: #6e3f3b; 
+}
 
 .gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px; 
 }
 
 p {
